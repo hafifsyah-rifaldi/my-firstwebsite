@@ -2,6 +2,14 @@
 	box-sizing: border-box;
 }
 
+.box {
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 30px;
+    overflow: auto;
+}
+
 
 .atas {
 	font-size: 20px;
@@ -21,9 +29,11 @@ body {
 	background: url('../assets/images/bghome.jpg') no-repeat;
 	background-size: cover;
 	color: gold;
+   
+	background-size:cover;
  }
 
- h2, h4{
+ h2{
 	text-align: center;
 }
 header {
@@ -56,52 +66,16 @@ nav a:hover {
 	font-weight: bold;
 }
  article {
-    background-color: black;
+    background-color:navy;
 }
-p
-{
-	margin-top: 50px;
-	margin-left: 150px;
-}
-.foto-profil {
-	width: 25%;
-	float: right;
-	border-radius: 10px;
-	margin-right: 50px;
+p{
+	text-align: justify;
 }
 
-#sem6
-{
-	float: left;
-	margin-left: 100px;
-}
-#sem7
-{
-	float: right;
-	margin-right: 100px;
-}
-.box {
-	box-shadow: 0 10px 15px 0 rgba(0, 0, 0.2);
-	border-radius: 5px;
-	padding: 20px;
-	margin-top: 30px;
-    overflow: auto;
-}
-#yt{
+#gambar{
 	text-align: center;
 }
-iframe {
-	width: 70%; /* It should not be 100% */
-	height: 70%;
-	margin: 0 auto;
-	}
+.logo {
+	margin-right: 20px;
 
-footer {
-    padding: 0px;
-	color:red;
-	text-align: center;
-	font-weight: bold;
-	font-family: Cambria;
-	font-size: 25px;
-    font-style: italic;
 }

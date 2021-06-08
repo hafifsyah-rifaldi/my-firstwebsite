@@ -91,7 +91,7 @@ p
 	text-align: center;
 }
 iframe {
-	width: 70%; /* It should not be 100% */
+	width: 70%;
 	height: 70%;
 	margin: 0 auto;
 	}
