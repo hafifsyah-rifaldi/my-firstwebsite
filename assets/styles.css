@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.atas {
+	font-size: 20px;
+	padding: 50px;
+	background-color: black;
+	text-align: center;
+	color: gold;
+}
+main {
+	padding: 30px;
+	overflow: auto;
+}
+body {
+	font-family:Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url('../assets/images/bghome.jpg') no-repeat;
+	background-size: cover;
+	color: gold;
+ }
+
+ h2, h4{
+	text-align: center;
+}
+header {
+    display: inline;
+    
+ }
+
+nav {
+	background-color:maroon;
+	padding:1px;
+	position: sticky;
+	top: 0;
+    text-align: right;
+	z-index: 1;
+}
+nav a{
+    font-size: 15px;
+	font-weight: 400;
+	text-decoration: none;
+	color: gold;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 40px;
+    
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+ article {
+    background-color: black;
+}
+p
+{
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.foto-profil {
+	width: 25%;
+	float: right;
+	border-radius: 10px;
+	margin-right: 50px;
+}
+
+#sem6
+{
+	float: left;
+	margin-left: 100px;
+}
+#sem7
+{
+	float: right;
+	margin-right: 100px;
+}
+.box {
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 30px;
+    overflow: auto;
+}
+#yt{
+	text-align: center;
+}
+iframe {
+	width: 70%; /* It should not be 100% */
+	height: 70%;
+	margin: 0 auto;
+	}
+
+footer {
+    padding: 0px;
+	color:red;
+	text-align: center;
+	font-weight: bold;
+	font-family: Cambria;
+	font-size: 25px;
+    font-style: italic;
+}
